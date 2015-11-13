@@ -6,10 +6,10 @@ import serial
 import time
 import sys
 
-ckey = 'uOgd4dBygOguORWftJCwJfZoR'
-csecret = 'Y3rIpPUhFUqkjPffKEd9qcZf71sHDmDjvZUgqSwAQUjc7DXano'
-atoken = '96362656-RxcZN4PCbE4PLM5EJTtajqhVhsf36WjrVjonCJYq8'
-asecret = 'PPqdkq6sDIi3xmXKsYBUr2fdfwAcKLkJx5KTlOX0KElbB'
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 class listener(StreamListener):
     def on_data(self, data):
